@@ -2,10 +2,10 @@
 <otx xmlns="http://iso.org/OTX/1.0.0" xmlns:util="http://iso.org/OTX/1.0.0/Util" xmlns:dataType="http://iso.org/OTX/1.0.0/DataType" xmlns:file="http://iso.org/OTX/1.0.0/File" xmlns:gdi="http://emotive.de/OTX/1.0.0/Gdi" xmlns:measure="http://iso.org/OTX/1.0.0/Measure" xmlns:log="http://iso.org/OTX/1.0.0/Logging" xmlns:hmi="http://iso.org/OTX/1.0.0/HMI" xmlns:string="http://iso.org/OTX/1.0.0/StringUtil" xmlns:event="http://iso.org/OTX/1.0.0/Event" xmlns:diag="http://iso.org/OTX/1.0.0/DiagCom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="id_aa7bb3987c2c4c448eacf07731339356" name="NewDocument1" package="NewTraceBigLineProblemPackage1" version="1.0.0.0" timestamp="2019-01-11T11:54:21.9820565+01:00">
   <metaData>
     <data key="MadeWith">Created by emotive Open Test Framework - www.emotive.de</data>
-    <data key="OtfVersion">6.0.0.26718</data>
+    <data key="OtfVersion">6.0.0.33444</data>
   </metaData>
   <signatures>
-    <signature name="ScreenSignature1" id="Signature_26abdd97b3e14a329662dcb5fb58c2b5">
+    <signature name="ScreenSignature1AAAA" id="Signature_26abdd97b3e14a329662dcb5fb58c2b5">
       <realisation xsi:type="hmi:ScreenSignature">
         <hmi:parameters>
           <hmi:inParam name="ScreenInParameter1" id="ScreenInParameterDeclaration_ae9d16bc95c041a290adafdb024b999e" category="">
@@ -40,14 +40,14 @@
     <procedure name="main" id="id_a5a97acfb92d46e7bfd378252cc42e90" visibility="PUBLIC">
       <realisation>
         <declarations>
-          <variable name="String1" id="VariableDeclaration_0831f1570e4842c7998b94f089b7bbec">
+          <variable name="String1555555" id="VariableDeclaration_0831f1570e4842c7998b94f089b7bbec">
             <realisation>
               <dataType xsi:type="String">
                 <init value="" />
               </dataType>
             </realisation>
           </variable>
-          <variable name="Counter1" id="VariableDeclaration_1d5021def39944e597af98d3f2e6ffa1">
+          <variable name="Counter111111" id="VariableDeclaration_1d5021def39944e597af98d3f2e6ffa1">
             <realisation>
               <dataType xsi:type="Integer" />
             </realisation>
@@ -74,6 +74,14 @@
               <result xsi:type="StringVariable" name="String1" />
               <term xsi:type="StringLiteral" value="A" />
             </realisation>
+          </action>
+          <action name="GetComChannel1" id="Action_e67ea94949e44a0ead2f044162d04160">
+            <realisation xsi:type="Assignment">
+              <term xsi:type="diag:GetComChannel" />
+            </realisation>
+          </action>
+          <action name="IdentifyAndSelectVariant" id="IdentifyAndSelectVariant_3034a6cac8154a47915e99cebb8d0c1d">
+            <realisation xsi:type="diag:IdentifyAndSelectVariant" />
           </action>
           <action name="GetComChannel" id="Action_1178e87c96224a478d4cfdcc0d0c4385">
             <realisation xsi:type="Assignment">
@@ -219,7 +227,7 @@
             </realisation>
           </loop>
           <action name="ScreenSignature1" id="OpenScreen_bbe2715bf4ce4fa4a3f5642a504feac2">
-            <realisation xsi:type="hmi:OpenScreen" screen="ScreenSignature1">
+            <realisation xsi:type="hmi:OpenScreen" screen="ScreenSignature1AAAA">
               <hmi:screenHandle name="Screen1" />
             </realisation>
           </action>

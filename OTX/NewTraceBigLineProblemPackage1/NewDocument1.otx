@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<otx xmlns="http://iso.org/OTX/1.0.0" xmlns:util="http://iso.org/OTX/1.0.0/Util" xmlns:dataType="http://iso.org/OTX/1.0.0/DataType" xmlns:file="http://iso.org/OTX/1.0.0/File" xmlns:gdi="http://emotive.de/OTX/1.0.0/Gdi" xmlns:measure="http://iso.org/OTX/1.0.0/Measure" xmlns:log="http://iso.org/OTX/1.0.0/Logging" xmlns:hmi="http://iso.org/OTX/1.0.0/HMI" xmlns:string="http://iso.org/OTX/1.0.0/StringUtil" xmlns:event="http://iso.org/OTX/1.0.0/Event" xmlns:diag="http://iso.org/OTX/1.0.0/DiagCom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="id_aa7bb3987c2c4c448eacf07731339356" name="NewDocument1" package="NewTraceBigLineProblemPackage1" version="1.0.0.0" timestamp="2019-01-11T11:54:21.9820565+01:00">
+<otx xmlns="http://iso.org/OTX/1.0.0" xmlns:util="http://iso.org/OTX/1.0.0/Util" xmlns:dataType="http://iso.org/OTX/1.0.0/DataType" xmlns:file="http://iso.org/OTX/1.0.0/File" xmlns:gdi="http://emotive.de/OTX/1.0.0/Gdi" xmlns:measure="http://iso.org/OTX/1.0.0/Measure" xmlns:log="http://iso.org/OTX/1.0.0/Logging" xmlns:hmi="http://iso.org/OTX/1.0.0/HMI" xmlns:string="http://iso.org/OTX/1.0.0/StringUtil" xmlns:event="http://iso.org/OTX/1.0.0/Event" xmlns:diag="http://iso.org/OTX/1.0.0/DiagCom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="id_aa7bb3987c2c4c448eacf07731339356" name="NewDocument1" package="NewTraceBigLineProblemPackage1" version="1.0.0.34045" timestamp="2019-01-11T11:54:21.9820565+01:00">
   <metaData>
     <data key="MadeWith">Created by emotive Open Test Framework - www.emotive.de</data>
-    <data key="OtfVersion">6.0.0.26718</data>
+    <data key="OtfVersion">6.0.0.33444</data>
   </metaData>
   <signatures>
-    <signature name="ScreenSignature1" id="Signature_26abdd97b3e14a329662dcb5fb58c2b5">
+    <signature name="ScreenSignature1AAAA" id="Signature_26abdd97b3e14a329662dcb5fb58c2b5">
       <realisation xsi:type="hmi:ScreenSignature">
         <hmi:parameters>
           <hmi:inParam name="ScreenInParameter1" id="ScreenInParameterDeclaration_ae9d16bc95c041a290adafdb024b999e" category="">
@@ -227,7 +227,7 @@
             </realisation>
           </loop>
           <action name="ScreenSignature1" id="OpenScreen_bbe2715bf4ce4fa4a3f5642a504feac2">
-            <realisation xsi:type="hmi:OpenScreen" screen="ScreenSignature1">
+            <realisation xsi:type="hmi:OpenScreen" screen="ScreenSignature1AAAA">
               <hmi:screenHandle name="Screen1" />
             </realisation>
           </action>
