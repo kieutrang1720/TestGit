@@ -40,7 +40,7 @@
     <procedure name="main" id="id_a5a97acfb92d46e7bfd378252cc42e90" visibility="PUBLIC">
       <realisation>
         <declarations>
-          <variable name="String1" id="VariableDeclaration_0831f1570e4842c7998b94f089b7bbec">
+          <variable name="String1555555" id="VariableDeclaration_0831f1570e4842c7998b94f089b7bbec">
             <realisation>
               <dataType xsi:type="String">
                 <init value="" />
