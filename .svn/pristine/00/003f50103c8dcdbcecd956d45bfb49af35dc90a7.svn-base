@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ProjectVersion="1.0.0.34047" UseDiagRuntimeSystem="true" xmlns="http://www.emotive.de/odf">
+  <Applications />
+  <References />
+  <StartupApplication Procedure="NewTraceBigLineProblemPackage1.NewDocument1.main">
+    <ParameterCollection />
+  </StartupApplication>
+  <InstructionsFile TemplateName="Default.ptxt" ShortName="Project" />
+</Project>
