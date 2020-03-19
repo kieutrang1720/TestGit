@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<otx xmlns="http://iso.org/OTX/1.0.0" xmlns:util="http://iso.org/OTX/1.0.0/Util" xmlns:dataType="http://iso.org/OTX/1.0.0/DataType" xmlns:file="http://iso.org/OTX/1.0.0/File" xmlns:gdi="http://emotive.de/OTX/1.0.0/Gdi" xmlns:measure="http://iso.org/OTX/1.0.0/Measure" xmlns:log="http://iso.org/OTX/1.0.0/Logging" xmlns:hmi="http://iso.org/OTX/1.0.0/HMI" xmlns:string="http://iso.org/OTX/1.0.0/StringUtil" xmlns:event="http://iso.org/OTX/1.0.0/Event" xmlns:diag="http://iso.org/OTX/1.0.0/DiagCom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="id_aa7bb3987c2c4c448eacf07731339356" name="NewDocument1" package="NewTraceBigLineProblemPackage1" version="1.0.0.0" timestamp="2019-01-11T11:54:21.9820565+01:00">
+<otx xmlns="http://iso.org/OTX/1.0.0" xmlns:util="http://iso.org/OTX/1.0.0/Util" xmlns:dataType="http://iso.org/OTX/1.0.0/DataType" xmlns:file="http://iso.org/OTX/1.0.0/File" xmlns:gdi="http://emotive.de/OTX/1.0.0/Gdi" xmlns:measure="http://iso.org/OTX/1.0.0/Measure" xmlns:log="http://iso.org/OTX/1.0.0/Logging" xmlns:hmi="http://iso.org/OTX/1.0.0/HMI" xmlns:string="http://iso.org/OTX/1.0.0/StringUtil" xmlns:event="http://iso.org/OTX/1.0.0/Event" xmlns:diag="http://iso.org/OTX/1.0.0/DiagCom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="id_aa7bb3987c2c4c448eacf07731339356" name="NewDocument1" package="NewTraceBigLineProblemPackage1" version="1.0.0.34045" timestamp="2019-01-11T11:54:21.9820565+01:00">
   <metaData>
     <data key="MadeWith">Created by emotive Open Test Framework - www.emotive.de</data>
     <data key="OtfVersion">6.0.0.33444</data>
@@ -69,6 +69,11 @@
           </variable>
         </declarations>
         <flow>
+          <action name="ConfirmDialog2" id="ConfirmDialog_01e54468469f46b783d30695bd2e2a22">
+            <realisation xsi:type="hmi:ConfirmDialog">
+              <hmi:message xsi:type="StringLiteral" value="test" />
+            </realisation>
+          </action>
           <action name="Assignment1" id="Assignment_f11fb81888464367828ba32d9cc4d888">
             <realisation xsi:type="Assignment">
               <result xsi:type="StringVariable" name="String1" />
