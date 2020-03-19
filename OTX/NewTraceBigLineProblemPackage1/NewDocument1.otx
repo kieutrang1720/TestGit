@@ -16,7 +16,7 @@
         </hmi:parameters>
       </realisation>
     </signature>
-    <signature name="ZZZZZ" id="Signature_e6e5767e33ec434c8bb95e5c994b60e1">
+    <signature name="DeviceSignature1" id="Signature_e6e5767e33ec434c8bb95e5c994b60e1">
       <realisation xsi:type="measure:DeviceSignature">
         <measure:services>
           <measure:service name="DeviceServiceSignature1" id="DeviceServiceSignature_34d7fff513834efbba768d9f8876924a">
